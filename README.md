@@ -5,6 +5,6 @@ puedes usarlo para los propositos que estimes convenientes, excepto para fines m
 
 # ToDo
 
--[] Readme en ingles
--[] Agregar css
--[] Agregar metodos de contacto actualizados
+- [ ] Readme en ingles 
+- [ ] Agregar css 
+- [ ] Agregar metodos de contacto actualizados 

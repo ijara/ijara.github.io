@@ -36,9 +36,14 @@ div.row{
 
 .link{
   /*  */
-  color: #E4F1FE;
+  color: #81CFE0;
 }
 .link:hover{
   /*  */
   color: #81CFE0;
+}
+
+footer{
+  /*  */
+  text-align: right;
 }

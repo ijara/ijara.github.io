@@ -1,0 +1,44 @@
+/* Mi propia hoja de estilos para index.html en ijara.github.io */
+
+
+#banner{
+  /* imagen o algo escrito */
+  text-align: left;
+
+}
+
+h1{
+  /* Ignacio Jara banner */
+  color:#E4F1FE;
+}
+
+.panel h5{
+  /*  */
+  color: #E4F1FE;
+}
+
+
+body{
+  /*  */
+  background-color: #2C3E50;
+  color: #E4F1FE;
+}
+
+div.row{
+  background-color: #34495E;
+}
+
+.panel{
+  background-color: #336E7B;
+  border-color: #336E7B;
+  color: #E4F1FE;
+}
+
+.link{
+  /*  */
+  color: #E4F1FE;
+}
+.link:hover{
+  /*  */
+  color: #81CFE0;
+}

@@ -4,43 +4,58 @@
 #banner{
   /* imagen o algo escrito */
   text-align: left;
+}
 
+
+
+#welcome{
+  text-align: center;
+}
+
+.button{
+  background-color: #828376;
+}
+.button:hover{
+  background-color: #D79E37;
 }
 
 h1{
   /* Ignacio Jara banner */
-  color:#E4F1FE;
+  color:white;
 }
 
+hr{
+  border-color: #336E7B;
+}
 .panel h5{
   /*  */
-  color: #E4F1FE;
+  color: #D79E37;
 }
 
 
 body{
   /*  */
-  background-color: #2C3E50;
-  color: #E4F1FE;
+  background-color: #19313F;
+  color: #D79E37;
 }
 
 div.row{
-  background-color: #34495E;
+  background-color: #19313F;
 }
 
 .panel{
-  background-color: #336E7B;
+  background-color: #19313F;
   border-color: #336E7B;
-  color: #E4F1FE;
+  color: #D79E37;
 }
 
 .link{
   /*  */
-  color: #81CFE0;
+  color: #DE7D4F;
 }
 .link:hover{
   /*  */
-  color: #81CFE0;
+  color: #F8A046;
 }
 
 footer{

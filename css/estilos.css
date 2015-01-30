@@ -6,7 +6,10 @@
   text-align: left;
 }
 
-
+pre{
+  /*  */
+  text-align: left;
+}
 
 #welcome{
   text-align: center;
@@ -36,7 +39,7 @@ hr{
 body{
   /*  */
   background-color: #19313F;
-  color: #D79E37;
+  color: white;
 }
 
 div.row{

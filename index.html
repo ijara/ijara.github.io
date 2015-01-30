@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ignacio Jara</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/estilos.css" media="screen" title="estilo" charset="utf-8">
-    <script src="js/vendor/modernizr.js"></script>
+
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" title="no title" charset="utf-8">
+    <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
   </head>
   <body>
 
@@ -24,14 +25,60 @@
     <div class="row">
         <div class="medium-9 columns">
             <div id="welcome">
-
-                <p class="text-justify">
-                  Hogar del proyecto de proyectos...
-                  Mi pagina web personal que siempre será un Work In Progress y nunca le dedicaré
-                  mucho tiempo. De vez en cuando agrego algún link de contacto o actualizo alguna información.
-                  Quizas algún día pueda ofrecer mas cosas
-                </p>
-                <p> Saludos :D</p>
+                <pre>
+                {
+                  "coder":{
+                    "firstname" : "Ignacio",
+                    "lastname" : "Jara",
+                    "age" : "22",
+                    "location" : "Viña del Mar",
+                    "Country" : "Chile",
+                    "education" : [
+                      {
+                        "universityname" : "INACAP" ,
+                        "career" : "Ingeneria en Informatica",
+                        "currentyears" : "3",
+                        "totalyears" : "4",
+                        "status" : "studying"
+                      },
+                      {
+                        "universityname" : "UTFSM".
+                        "carrer" : "Ingeneria Civil en Informatica",
+                        "currentyears" : "3"
+                        "totalyears" : "6",
+                        "status" : "incompleted"
+                      }
+                    ],
+                    "language" : [
+                      { "name" : "HTML5" , "level" : "medium" },
+                      { "name" : "CSS3" , "level" : "low" },
+                      { "name" : "js", "level" : "medium" },
+                      { "name" : "Java" , "level" : "high" },
+                      { "name" : "C#" , "level" : "high" },
+                      { "name" : "rails" , "level" : "medium"},
+                      { "name" : "C++" , "level" : "rusty"}
+                    ],
+                  },
+                  "information" : {
+                    "linuxuser" :  " #563934",
+                    "OS" : "Arch Linux",
+                    "shell" : "zsh",
+                    "wm" : "i3"
+                  },
+                  "proyects" : [
+                    {
+                      "name" : "ijara.github.io",
+                      "description" : "personal webpage",
+                      "status" : "active"
+                    },
+                    {
+                      "name" : "letemmo",
+                      "description" : "another league of legends page",
+                      "status" : "not active"
+                    }
+                  ]
+                }
+              </pre>
             </div>
             <div id="data">
               <p></p>

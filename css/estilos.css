@@ -6,9 +6,7 @@
   text-align: left;
 }
 
-#welcome{
 
-}
 
 .button{
   background-color: #828376;
@@ -18,16 +16,27 @@
 }
 
 #bienvenida{
-    color:white;
+    color: #5B5567;
 }
 
+#subtitulo3{
+    color: darkcyan;
+}
 h1{
   /* Ignacio Jara banner */
-  color:white;
+  color: #5B5567;
+}
+
+#parrafos{
+    color: #5B5567
+}
+
+p{
+    color: #5B5567;
 }
 
 hr{
-  border-color: #336E7B;
+  border-color: #5B5567;
 }
 .panel h5{
   /*  */
@@ -37,27 +46,27 @@ hr{
 
 body{
   /*  */
-  background-color: #19313F;
-  color: white;
+  background-color: #FCFFF2;
+  color: #5B5567
 }
 
 div.row{
-  background-color: #19313F;
+  background-color: #FCFFF2;
 }
 
 .panel{
-  background-color: #19313F;
+  background-color: #FCFFF2;
   border-color: #336E7B;
   color: #D79E37;
 }
 
 .link{
   /*  */
-  color: #DE7D4F;
+  color: #C7CB96;
 }
 .link:hover{
   /*  */
-  color: #F8A046;
+  color: #E8DE92;
 }
 
 footer{
